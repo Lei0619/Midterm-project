@@ -1,0 +1,117 @@
+body {
+    background-image: url('https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    min-height: 100vh;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table-container {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 1.4%;
+    border-radius: 10px;
+    width: 97%;
+    max-width: 100%; /* Ensure it doesn't go wider than the viewport */
+    margin: 5% 0; /* Add some margin to create space around the table */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #fff; /* Table text color */
+    table-layout: fixed; /* Fix table layout to avoid overflow */
+}
+
+th, td {
+    padding: 1%;
+    border-bottom: 1px solid rgba(98, 98, 250, 0.3); /* Light border */
+    word-wrap: break-word; /* Allow text to wrap within cells */
+}
+
+th {
+    background: rgba(98, 98, 250, 0.3); /* Semi-transparent header background */
+    color: #fff;
+}
+
+td {
+    flex-direction: column;     
+}
+
+tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.1); /* Slightly lighter background for even rows */
+}
+
+tr:hover {
+    background: rgba(255, 255, 255, 0.2); /* Highlight on hover */
+}
+
+.actions a {
+    margin: 0 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.actions a:hover {
+    text-decoration: underline;
+}
+
+#home {
+    font-size: xx-large;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    color: #ffffff;
+}
+
+#notes h1 {
+    color: #fff;
+    margin-top: 0px;
+}
+
+#add {
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 250%;
+    z-index: 1000; /* Ensures it stays on top */
+
+}
+
+#myButton {
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: #666666;
+    font-family: Arial;
+    font-size: 60%;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+}
+
+#myButton:hover {
+    background: linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+    background-color: #e9e9e9;
+}
+
+#myButton:active {
+    position: relative;
+    top: 1px;
+}

@@ -1,0 +1,72 @@
+body {
+    background-image: url('https://images.pexels.com/photos/1764702/pexels-photo-1764702.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.note-container {
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.note-header {
+    margin-bottom: 20px;
+}
+
+.note-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.note-description {
+    font-size: 1.2em;
+}
+
+.note-content {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    width: 85%;
+    max-width: 800px; /* Prevent content from stretching to the edge */
+    height: 400px;
+    overflow-y: auto;
+    margin: 0 auto; /* Center the content */
+    word-wrap: break-word; /* Ensure long words break and wrap */
+    line-height: 1.5; /* Set line height for readability */
+    text-align: justify; /* Ensure text is justified, like a book */
+}
+
+.note-actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}

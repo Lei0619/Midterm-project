@@ -1,0 +1,104 @@
+body{
+    background-image: url('https://images.pexels.com/photos/583848/pexels-photo-583848.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+    margin-bottom: 15 0px;
+    width: 95%;
+    text-align: center; /* Center text */
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    /* border: solid 1px; */
+    width: 70%;
+    height: 70%;
+    margin-left: 16%;
+    color: white;
+    border-radius: 10px;
+    font-size: 150%;
+    margin-bottom: 20%;
+
+}   
+
+.button{
+    box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:65%;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+
+.button:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+footer{
+    border: solid 1px;
+    max-width: 30%;
+    margin-left: 36%;
+    border-radius: 10px;
+    color: white;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0;
+}
+
+/* Styles for small screens (mobile phones) */
+@media (max-width: 576px) {
+    body {
+        background-size: contain; /* Adjusting background size for better mobile view */
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Styles for medium screens (tablets) */
+@media (max-width: 768px) {
+    body {
+        background-size: cover; /* Restoring background size for tablets */
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Styles for large screens (desktops) */
+@media (min-width: 992px) {
+    body {
+        background-size: cover; /* Ensuring background size for larger screens */
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
